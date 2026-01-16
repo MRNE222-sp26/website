@@ -161,7 +161,7 @@
     "href": "index.html",
     "title": "Welcome",
     "section": "",
-    "text": "This is the homepage for ENST/MRNE 222 Environmental Data Analysis and Visualization taught by Dr. Cassie Gurbisz in Spring 2025 at St. Mary’s College of Maryland. All course materials will be posted on this site, accessible through the Schedule page and the navigation bar on the left.\nThis website was built with Quarto. Course materials are largely adapted from Data Science in a Box.",
+    "text": "This is the homepage for ENST/MRNE 222 Environmental Data Analysis and Visualization taught by Dr. Cassie Gurbisz at St. Mary’s College of Maryland. All course materials will be posted on this site, accessible through the Schedule page and the navigation bar on the left.\nThis website was built with Quarto. Course materials are largely adapted from Data Science in a Box.",
     "crumbs": [
       "Welcome"
     ]
