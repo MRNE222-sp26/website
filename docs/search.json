@@ -1,0 +1,259 @@
+[
+  {
+    "objectID": "01-syllabus.html",
+    "href": "01-syllabus.html",
+    "title": "Syllabus",
+    "section": "",
+    "text": "Course: ENST/MRNE 222 Environmental Data Science Spring 2025\nClass time and location: Tuesdays and Thursdays 9:55-11:10 Goodpaster 197\nLab time and location: Wednesdays 8:00-11:10 River Center Classroom\nInstructor: Dr. Cassie Gurbisz (you’re welcome to call me Cassie)\nEmail: cbgurbisz@smcm.edu\nOffice hours: Tuesdays 11:30-1:30 Kent Hall 308\nWebsite: https://mrne222-sp25.github.io/website/",
+    "crumbs": [
+      "Syllabus"
+    ]
+  },
+  {
+    "objectID": "01-syllabus.html#course-description",
+    "href": "01-syllabus.html#course-description",
+    "title": "Syllabus",
+    "section": "Course description",
+    "text": "Course description\nToday’s environmental challenges are increasingly complex and involve vast amounts of data. With technological advances that make ecological measurements cheaper and easier and open science tools that make data more accessible, the environmental field could even be described as “drowning in data.” In this course, students will learn how to use tools from statistics and computer science to gain insight from ecological data without “drowning” in it. We will draw practical real-world meaning from complex datasets by interpreting our analyses in the context of previous environmental or marine science coursework. Throughout the course, we will use literate programming and version control tools to ensure that our analyses are reproducible and accessible. We will do all of this using R, one of the most popular and in-demand statistical programming languages in the environmental and ecological fields.",
+    "crumbs": [
+      "Syllabus"
+    ]
+  },
+  {
+    "objectID": "01-syllabus.html#course-materials",
+    "href": "01-syllabus.html#course-materials",
+    "title": "Syllabus",
+    "section": "Course materials",
+    "text": "Course materials\nReadings: All of the readings and software in this class are free and publicly available. There are free online versions of all the textbooks, and R, RStudio, and GitHub are also free. Two information sources which we’ll use most frequently are:\n\nR 4 Data Science\nIntroduction to Modern Statistics\n\nHardware: You’ll need to bring a laptop to class and lab every day. Make sure to also bring a charger. If you don’t have a laptop, please talk with me so we can get you a loaner.\nSoftware: For computing, we’ll be using Posit Cloud (formerly RStudio Cloud), which lets you access RStudio and all of the packages we’ll need right from your browser. Although R and RStudio are freely available to download onto your computer, working from a central cloud version ensures that we spend our class time learning to code rather than trouble shooting software issues. All of your work should be done in our class Posit Cloud RStudio workspace. You will receive an invite to join the workspace during class.\nI do recommend that you download R and RStudio onto your computer at some point during the semester since you won’t have access to our cloud workspace after the course ends. You might also want to get your computer connected to GitHub so you can ask for help if you run into any problems. happywithgitr.com has very good instructions - be sure to follow them carefully and don’t skip any steps.",
+    "crumbs": [
+      "Syllabus"
+    ]
+  },
+  {
+    "objectID": "01-syllabus.html#learning-outcomes",
+    "href": "01-syllabus.html#learning-outcomes",
+    "title": "Syllabus",
+    "section": "Learning outcomes",
+    "text": "Learning outcomes\nAt the completion of this course, students will be able to gain insight from marine and environmental data reproducibly and collaboratively using modern programming tools and techniques.\nSpecific outcomes include being able to:\n\nvisualize environmental data using ggplot2\nwrangle and tidy data tables using dplyr functions to generate a suitable dataset for analysis\nuse functions and iterative programming to automate analysis tasks\ndefine research questions and hypotheses\nconstruct statistical models to quantify patterns and make predictions\ninterpret data in the context of prior knowledge in the environmental or marine science domains\ncommunicate results and document code using Quarto documents\nstore data and code using a clean and clear system of organization\nuse version control tools (Git and GitHub) to collaborate and share code",
+    "crumbs": [
+      "Syllabus"
+    ]
+  },
+  {
+    "objectID": "01-syllabus.html#grading",
+    "href": "01-syllabus.html#grading",
+    "title": "Syllabus",
+    "section": "Grading",
+    "text": "Grading\nThis is an “ungraded” course. I want you to focus on learning R and developing your quantitative reasoning skills without the stress of losing points over minor mistakes. Mistakes are inevitable in this type of course. In fact, making mistakes and fixing them is the best way to learn! Furthermore, research has shown that grading doesn’t always improve learning and can sometimes even harm learning.\nRather than submitting work “in exchange” for a letter or number grade, you will self-evaluate most of your assignments by comparing them to the provided solutions documents. In addition, your peers and I will provide qualitative feedback on your projects.\nBrief learning reflections will be an important component of most assignments. Periodically throughout the semester, you will also submit more substantial learning reflections in which you give yourself a grade based on your learning, as reflected in the work you submit. This should help you think intentionally about what you’re learning, what you’re struggling with, and what you need to do to maximize your learning in the course. Hopefully, this will spark your inner motivation to do your best work. As the instructor, I have the final say in your grade. But I rarely find that changing a student’s self-assessed grade is necessary - I trust your judgment.\n\n\n\n\n\n\nImportant\n\n\n\nYour project must meet all of the specifications and you need to make substantial code contributions to your group’s work in order to earn at least a C in the course.",
+    "crumbs": [
+      "Syllabus"
+    ]
+  },
+  {
+    "objectID": "01-syllabus.html#assessment",
+    "href": "01-syllabus.html#assessment",
+    "title": "Syllabus",
+    "section": "Assessment",
+    "text": "Assessment\n\nClass preparation\nMost weeks, I’ll assign a reading that introduces you to the material we’ll cover in class. The goal of the readings is to help you get a broad overview of the content so that you become generally familiar with key terms and concepts. The readings are a great reference for completing application exercises, labs, and the course project. Therefore, an additional goal of completing the readings is to familiarize yourself with these resources so you can quickly refer to them when needed.\nTo incentevize you to do the readings and to help me keep track of who is doing the readings, we will have ungraded “quizzes” in class on the day readings are due.\n\n\nApplication exercises\nFrequently we will work on brief application exercises during class to practice new tools and concepts. The first few will be posted as assignments in our Posit Cloud workspace. When you open an assignment, Posit Cloud will make a copy for you. Your changes will be automatically saved and I’ll be able to see your work. After our first lab, you’ll clone the remaining Application Exercises from GitHub, work on the in Posit Cloud, and push your changes to GitHub to submit the assignment. Application exercises should be submitted by the end of the week (Friday) in which they were assigned.\n\n\nLabs\nLabs afford us time to practice the concepts covered in class and work collaboratively on group projects. Some exercises will be relatively brief and can be completed during the designated lab time. Others will be more involved and may need to be finished for homework. Either way, lab assignments should be submitted by the end of the week (Friday) in which they were assigned. At the beginning of each lab, I will typically post a solutions document for the previous lab assignment so you can self-evaluate your work and ask questions.\n\n\nProject\nFinally, the course also includes an open-ended group project to give you the opportunity for you to demonstrate that you can ask a meaningful research question and apply the tools you have been learning to answer it using real environmental data. You’ll identify a topic with which you’re familiar from previous coursework to ensure that you have the disciplinary grounding needed to interpret your analysis. Your project must meet all of the specifications provided and you need to make substantial code contributions to your group’s work in order to earn at least a C in the course.\n\n\n\n\n\n\nImportant\n\n\n\nYour project must meet all of the specifications and you need to make substantial code contributions to your group’s work in order to earn at least a C in the course.\n\n\n\n\nLearning reflections\nBecause this is an ungraded class, we will emphasize qualitative reflection to self-assess your learning. Most if not all of of your assignments will include a reflection component in which you think about what you learned through the assignment, what challenges you faced, etc. At the mid-point and end of the semester, you will write a detailed reflection on your learning and make a case for the grade you have earned based on your progress towards meeting the learning outcomes. Your reflection will describe how your work products (quizzes, application exercises, labs, and project) demonstrates your learning.\nAn added benefit of this type of reflective work is that it encourages metacognition, which is the ability to think about your own thought processes and how they work. Research shows that metacognition can lead to “deeper, more durable, and more transferable learning. Therefore, taking the time to reflection on what and how you learned in the class should actually enhance your learning.\nI will provide a mid-term and final reflection template on GitHub for each student to clone in RStudio. You’ll submit your reflections by pushing your work back to GitHub.",
+    "crumbs": [
+      "Syllabus"
+    ]
+  },
+  {
+    "objectID": "01-syllabus.html#more-policies",
+    "href": "01-syllabus.html#more-policies",
+    "title": "Syllabus",
+    "section": "More policies",
+    "text": "More policies\n\nAttendance and late work\nIt is very important that you regularly attend class and lab. Everything we do builds on previously covered topics. That means if you miss class or lab, you will fall behind. I also know that life happens! If you need to miss class or lab, first make sure to communicate this with me. Then check the class schedule to see what you missed, review relevant slides and readings, and complete missed assignments on your own. If group-based project work took place, be sure to communicate with your team ASAP to come up with a plan for how you will contribute. Since this is an ungraded course, I will not automatically dock your grade due to absences. However, when you write your mid-semester and final learning reflections, you should carefully consider your attendance record - especially repeated absences - may have impacted your learning and, therefore, your grade.\nI encourage you to stick to assignment deadlines - they exist to keep you on track so you don’t fall behind with coursework. For all assignments due on Fridays, you have an automatic 2-day extension and can submit them by the end of the day on Sundays (no need to ask). I am also flexible if you really need an additional day or two to complete an assignment. In this case, just ask - it’s usually not a problem.\n\n\n\n\n\n\nImportant\n\n\n\nYou need to complete all of the labs assigned before the start of the group project in order to qualify to participate in the group project.\n\n\nHowever, you need to complete all of the labs assigned before the start of the group project in order to qualify to participate in the group project. Because the labs are designed to help you learn and practice key coding and analysis concepts, they play an important role in preparing you for the group data projects. It wouldn’t be fair to your group members if you are not prepared to contribute meaningfully to the project. If you do not complete all of the labs leading up the the group project, you’ll need to complete the project on your own, which means you won’t be able to demonstrate one of the central course learning outcomes: collaborative coding. This is something you will need to consider in your learning reflections.\n\n\nUse of AI\nGoogle is your friend and you should absolutely use it to help figure out coding questions, problems, bugs, etc. However, I’m a bit wary of AI tools like ChatGPT. It can generate R code, but how much are you really going to learn if you blindly copy and paste whatever code ChatGPT generates? I want you to come away from this course being able to write your own code. ChatGPT can certainly generate simple code for you, but it is pretty bad at solving more complex coding problems. If you don’t understand how to write and debug basic code because ChatGPT gave you the answer, you’ll never be able to do the type of more advanced work that ChatGPT isn’t capable of doing for you.\nI don’t want to outright ban AI tools, but please be cognizant of your learning. Don’t let ChatGPT make you dumb, and critically evaluate whether it’s giving you garbage or something useful. And if you do use code from a source other than your own brain, whether it be AI, a help forum, or blog, please give attribution to the source.\n\n\nEngaged learning\nSMCM has recently decreased the amount of time allocated to class meetings. In order to maintain the depth of learning that is required for a 4-credit course, some of your learning will take place by engaging with class material outside of normal lecture hours. Because the course includes a lab period, most of our “engaged learning” will take place via hands-on activities during lab.\n\n\nOffice hours\nOffice hours are set times dedicated to students. This means that I will be in my office waiting for you to come by talk to me during that time!",
+    "crumbs": [
+      "Syllabus"
+    ]
+  },
+  {
+    "objectID": "01-syllabus.html#smcm-resources",
+    "href": "01-syllabus.html#smcm-resources",
+    "title": "Syllabus",
+    "section": "SMCM resources",
+    "text": "SMCM resources\nAccommodations and Accessibility: SMCM is committed to providing access to the learning and living experience to students with disabilities and disabling health conditions. If you have received a letter from the Office of Accessibility Services (OAS), which outlines the academic accommodations to which you are entitled to and you want those accommodations to apply to this course, you MUST share your letter and meet with me to review that letter. If you suspect that you have a learning or living need related to a disability or disabling health condition that could benefit from accommodations, you should contact the Office of Accessibility Services, who can help you learn more about how to proceed. Email: adasupport@smcm.edu\nOffice of Student Success Services: The Office of Student Success Services (OS3) connects students to the resources, activities, services, and programs that can help students be successful, thrive, and persist to graduation. OS3 provides free tutoring services and academic coaching (strategies for time management, getting organized, overcoming procrastination, note-taking, test-taking, study skills, sleep and stress management, etc.) with professional staff and Peer Academic Success Strategies (PASS) Specialists. You may make appointments by emailing PASS@smcm.edu. To request tutoring for a specific course, email tutoring@smcm.edu. For any other help call 240-895-4388, stop by Glendening 230, or email os3@smcm.edu. Asking for help is an important skill to learn. Students who seek assistance and use the resources we have on campus tend to do better academically, socially, and emotionally than the students who do not ask for help or use the resources. Let us provide assistance and support when you need it.\nThe Writing and Speaking Center: Located on the first floor of the main Library, the Writing & Speaking Center offers free peer tutoring in writing and speaking. The peer tutors are students themselves, but they have completed extensive hands-on training to learn how to assist their peers at any step of the process (planning, drafting, or revising) for any writing or speaking assignment. The peer tutors will not make decisions about revision for you and will instead work collaboratively with you to discuss ideas and consider options so that you can choose how best to revise on your own. This collaborative approach is one of the best ways to help students develop their abilities because all writers and speakers need audiences—just ask the peer tutors, who often schedule tutorials with each other. To make an appointment, please visit www.smcm.edu/writingcenter and click the “Schedule an Appointment” button. If you have questions or need assistance, please contact Interim Director Amanda Taylor at apheatwole@smcm.edu.\nOffice of Title IX Compliance and Training: St. Mary’s College of Maryland is committed to helping create a safe and open learning environment for all students. If you (or someone you know) have experienced any form of Sex Discrimination, know that help and support are available. Sex Discrimination means exclusion from participation in or being denied the benefits of any education program or activity on the basis of sex, including sex stereotypes, sex characteristics, sexual orientation, gender identity, and pregnancy or related conditions. Sex-Based Harassment is a form of Sex Discrimination that includes the following types of conduct: quid pro quo harassment, hostile environment harassment, sexual assault, dating violence, domestic violence, and stalking.\nThe College strongly encourages all community members to take action, seek support, and report incidents of Sex Discrimination to the Title IX Office. Under Title IX of the Education Amendments of 1972, I am required to disclose information about such Sex Discrimination to the Title IX Office. If you would like to talk to a confidential employee who does not have this reporting responsibility, you can contact SMCM Wellness Center (240) 895-4289.\nFor more information about reporting options and resources at St. Mary’s College of Maryland and the community, please visit the Office of Title IX Compliance and Training.\nWellness Center: A growing number of students are experiencing mental health challenges to varying degrees. Doing what you can to stay ahead by wisely taking care of yourself will be a key to succeeding academically. Sometimes mental health challenges can affect your ability to complete required work. For example, a particular assignment might trigger anxiety for you in ways which were not anticipated. Or, maybe it becomes difficult to attend class due to mental health challenges. In any of those cases please come and talk with more or send me an email. I’ll listen and do what I can to help. The sooner you share your challenges with me, the better prepared I am to assist you. I am one of many people here at SMCM who care about you and your welfare. For further support, the Wellness Center provides numerous confidential health and counseling services including same day/next day connections to counseling by calling 240-895-4289 or emailing the Director at jljolly@smcm.edu",
+    "crumbs": [
+      "Syllabus"
+    ]
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "About this site\n\n1 + 1\n\n[1] 2"
+  },
+  {
+    "objectID": "05-help.html",
+    "href": "05-help.html",
+    "title": "Help!",
+    "section": "",
+    "text": "The following are common issues and suggestions for where to get help if you’re stuck.\n\n\n\n\nIt seems that you need to enter your GitHub PAT every time you start a new Posit Cloud session. To set your PAT in R Studio, open any project and type the code below into your R console. Then enter your PAT when prompted.\n\ngitcreds::gitcreds_set()\n\n\n\n\n\n\n\n\nR graph gallery\nData Viz with R - color palettes\nDatanovia color tricks",
+    "crumbs": [
+      "Help!"
+    ]
+  },
+  {
+    "objectID": "05-help.html#common-problems",
+    "href": "05-help.html#common-problems",
+    "title": "Help!",
+    "section": "",
+    "text": "It seems that you need to enter your GitHub PAT every time you start a new Posit Cloud session. To set your PAT in R Studio, open any project and type the code below into your R console. Then enter your PAT when prompted.\n\ngitcreds::gitcreds_set()",
+    "crumbs": [
+      "Help!"
+    ]
+  },
+  {
+    "objectID": "05-help.html#general-tips",
+    "href": "05-help.html#general-tips",
+    "title": "Help!",
+    "section": "",
+    "text": "R graph gallery\nData Viz with R - color palettes\nDatanovia color tricks",
+    "crumbs": [
+      "Help!"
+    ]
+  },
+  {
+    "objectID": "05-help.html#use-r-function-documentation",
+    "href": "05-help.html#use-r-function-documentation",
+    "title": "Help!",
+    "section": "Use R function documentation",
+    "text": "Use R function documentation\nThe help() function and ? help operator in R provide access to the documentation pages for R functions, data sets, and other objects, both for packages in the standard R distribution and for contributed packages. To access documentation for the standard lm (linear model) function, for example, enter the command help(lm) or help(\"lm\"), or ?lm or ?\"lm\" (i.e., the quotes are optional).\nEach function help page follows the same format. They start with a brief DESCRIPTION of what the package does. The USAGE section shows the various arguments you need to specify when using the function - some will be required, some will be optional. ARGUMENTS very briefly describes each of the arguments that you need to specify. The DETAILS section varies, but the author of the function generally gives more details about the function. VALUE tells you what the outputs of the function will be. EXAMPLES gives you some code snippets to show how the function is used in practice. These are very useful if you’re learning R.",
+    "crumbs": [
+      "Help!"
+    ]
+  },
+  {
+    "objectID": "05-help.html#use-the-internet",
+    "href": "05-help.html#use-the-internet",
+    "title": "Help!",
+    "section": "Use the internet",
+    "text": "Use the internet\nThere are internet search sites that are specialized for R searches, including search.r-project.org (which is the site used by RSiteSearch) and Rseek.org. It is also possible to use a general search site like Google, by qualifying the search with “R” or the name of an R package (or both). It can be particularly helpful to paste an error message into a search engine to find out whether others have solved a problem that you encountered.",
+    "crumbs": [
+      "Help!"
+    ]
+  },
+  {
+    "objectID": "05-help.html#other-good-resources",
+    "href": "05-help.html#other-good-resources",
+    "title": "Help!",
+    "section": "Other good resources",
+    "text": "Other good resources\n\nPosit cheatsheets give a good quick overview of how to use the functions in popular R packages\nThe R Style Guide provides guidelines for writing readable and maintainable R code\n\nggplot2 book\nFundamentals of Data Visualization book\nRMarkdown Cookbook",
+    "crumbs": [
+      "Help!"
+    ]
+  },
+  {
+    "objectID": "02-schedule.html",
+    "href": "02-schedule.html",
+    "title": "Schedule",
+    "section": "",
+    "text": "Schedule will be updated regularly throughout the semester\n\n\n\n\n\n  \n    \n    \n    \n    \n    \n    \n  \n  \n    \n      WEEK\n      DATE\n      PREP\n      SLIDES\n      ACTIVITIES\n      DUE\n    \n  \n  \n    1\nT Jan 14\n\nwelcome\nae-01\n\n    \nW Jan 15\n\nmeet the toolkit  lab-01 instructions\nlab-01\n\n    \nTh Jan 16\n\nGitHub - catch up\nfinish lab-01\n\n    \nF Jan 17\n\n\n\nlab-01\n    2\nT Jan 21\nR4DS Ch 1  R4DS Ch2\ndata visualization\n\nquiz-01\n    \nW Jan 22\n\nggplotting\nae-02  lab-02\n\n    \nTh Jan 23\n\nno slides - data viz practice  quiz-01 responses\nfinish lab-02  ae-03\n\n    \nF Jan 23\n\n\n\nae-02  ae-03  lab-02\n    3\nT Jan 28\nR4DS Ch 3  R4DS Ch 5\ndata transformation\nae-04\nquiz-02\n    \nW Jan 29\n\ndata tidying\nlab-03\n\n    \nTh Jan 30\nR4DS Ch 19\n\nlab-03 and/or  ae-05\n\n    \nF Jan 31\n\n\n\nlab-03  ae-04  ae-05 (optional)\n    4\nT Feb 4\nR4DS Ch 16  R4DS Ch 17\ndata joins\nae-06\nquiz-03\n    \nW Feb 5\n\n\nlab-04\n\n    \nTh Feb 6\n\ndata types   data classes\nae-07\n\n    \nF Feb 7\n\n\n\nlab-04  ae-05  ae-06  ae-07\n    5\nT Feb 11\nIMS  Ch 4  IMS  Ch 5  IMS  Ch 6\ndata import\nae-08  ae-09\nquiz-04\n    \nW Feb 12\n\neffective data viz\nlab-05\nsnow day - complete lab-05 on your own\n    \nTh Feb 13\n\ndata import - cont.\n\n\n    \nF Feb 14\n\n\n\nlab-05  ae-08  ae-09\n    6\nT Feb 18\n\neffective data viz - cont.\n\n\n    \nW Feb 19\n\ndoing data science\nlab-06\n\n    \nTh Feb 20\n\ndata recode\nreview ae-06-09 and  lab-04 solutions\n\n    \nF Feb 21\n\n\n\nlab-06  update and reflect on   ae-06-09 and lab-04\n    7\nT Feb 25\nR4DS Ch 25\nfunctions - intro\nae-10\nquiz-05\n    \nW Feb 26\n\ngit conflicts instructions  project guidelines\nlab-07\nsign up for project group\n    \nTh Feb 27\n\nfunctions - details\nae-11\n\n    \nF Feb 28\n\n\n\nae-10  ae-11\n    8\nT Mar 4\n\nproject proposal work: decide on a dataset\n\n\n    \nW Mar 5\n\nproject proposal work\n\n\n    \nTh Mar 6\nR4DS Ch 26\niteration\nae-12\nquiz-06\n    \nF Mar 7\n\n\n\nae-12\n    9\nT Mar 11\n\nspring Break - no class\n\n\n    \nW Mar 12\n\nspring Break - no lab\n\n\n    \nTh Mar 13\n\nspring Break - no class\n\n\n    10\nT Mar 18\noptional resource on map() from Advanced R\nmore iteration\nae-13\n\n    \nW Mar 19\n\nproject  work\n\n\n    \nTh Mar 20\n\niteration practice\nae-14\n\n    \nF Mar 21\n\n\n\nlearning reflection (clone from GitHub)  project proposal  ae 13\n    11\nT Mar 25\n\nlanguage of models\nae-15\n\n    \nW Mar 26\n\nproject work\n\n\n    \nTh Mar 27\n\n\n\n\n    \nF Mar 28\n\n\n\nae-14  a-15\n    12\nT Apr 1\n\nfitting and interpreting models\nae-16\n\n    \nW Apr 2\n\nlab-08\n\n\n    \nTh Apr 3\n\nNo class - CG out sick\n\n\n    \nF Apr 4\n\n\n\nlab-08  ae-16\n    13\nT Apr 8\n\nNo class - advising day\n\n\n    \nW Apr 9\n\nproject work\n\n\n    \nTh Apr 10\n\nreview lab-08 solutions  model checking and nonlinearity\n\n\n    \nF Apr 11\n\n\n\n\n    14\nT Apr 15\n\nmodels with multiple predictors\nae-17\n\n    \nW Apr 16\n\nno lab - CG out sick\n\nproject draft for peer review\n    \nTh Apr 17\n\nproject peer review\n\n\n    \nF Apr 18\n\n\n\nae-17\n    15\nT Apr 22\n\ntying up loose ends\n\n\n    \nW Apr 23\n\nproject work\n\n\n    \nTh Apr 24\n\nspatial data: make a map\nae-19, ae-20both optional\n\n    \nF Apr 25\n\n\n\nae optional\n    16\nF May 2\n\n2:00-4:15 (final exam period) Project review panel\n\nfinal project\n    \nM May 5\n\n\n\nfinal learning reflection",
+    "crumbs": [
+      "Schedule"
+    ]
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Welcome",
+    "section": "",
+    "text": "This is the homepage for ENST/MRNE 222 Environmental Data Analysis and Visualization taught by Dr. Cassie Gurbisz in Spring 2025 at St. Mary’s College of Maryland. All course materials will be posted on this site, accessible through the Schedule page and the navigation bar on the left.\nThis website was built with Quarto. Course materials are largely adapted from Data Science in a Box.",
+    "crumbs": [
+      "Welcome"
+    ]
+  },
+  {
+    "objectID": "03-project.html",
+    "href": "03-project.html",
+    "title": "Project",
+    "section": "",
+    "text": "Pick an environmental dataset on a topic you already know something about, ask a question, and answer it using data.",
+    "crumbs": [
+      "Project"
+    ]
+  },
+  {
+    "objectID": "03-project.html#tldr",
+    "href": "03-project.html#tldr",
+    "title": "Project",
+    "section": "",
+    "text": "Pick an environmental dataset on a topic you already know something about, ask a question, and answer it using data.",
+    "crumbs": [
+      "Project"
+    ]
+  },
+  {
+    "objectID": "03-project.html#example-project",
+    "href": "03-project.html#example-project",
+    "title": "Project",
+    "section": "Example project",
+    "text": "Example project\nThe CO2 case study is an example project to give you a sense of what constitutes a great final product.",
+    "crumbs": [
+      "Project"
+    ]
+  },
+  {
+    "objectID": "03-project.html#what-and-why",
+    "href": "03-project.html#what-and-why",
+    "title": "Project",
+    "section": "What and why",
+    "text": "What and why\nThe goal of the project is to apply the techniques we are covering in class to a novel dataset in a meaningful way. The project should emphasize data wrangling, tidying, visualization, and statistical modeling. Bonus “points” if you use spatial data as well. We will cover statistics and spatial data after Spring Break.\nFor the project, you will analyze any environmental/ecological dataset you’d like, with the one requirement that it be related to a topic with which you are already familiar so that you have some domain expertise. Data analysis is usually most powerful if you have expertise in a relevant topic area and can, therefore, ask questions and draw conclusions that are well-grounded in that disciplinary domain. So this is a good opportunity to apply previous coursework or experiences in a new, more quantitative context.\nYou don’t necessarily need to do an exhaustive data analysis (i.e., do not calculate every statistic or visualize every variable), but rather demonstrate that you are proficient at:\n\nasking meaningful questions and answering them through data analysis\nusing R and GitHub to code collaboratively\npresenting and interpreting your results using literate, reproducible programming (i.e., Quarto)\nusing statistical analysis to draw rigorous conclusions\n\nTo that end, you should focus on your research questions and work backwards from there. Think about what types of analysis and visualizations will help you answer your question and how your data need to be wrangled or tidied in order to complete those tasks. You’ll probably need to do some initial exploratory data analysis to get a sense of what types of questions you might ask. As you enter the analysis stage, you can stick to the packages we learned in class (tidyverse) or push yourself explore others if they will improve your analysis. Finally, give careful thought to how you communicate your analysis. Neatness, coherency, and clarity are all important.\nIf at any point you are having trouble, don’t hesitate to ask for help before it’s too late. The main reason we have a lab session is so you can work while I’m in the room to provide immediate assistance. Take advantage of it!",
+    "crumbs": [
+      "Project"
+    ]
+  },
+  {
+    "objectID": "03-project.html#data",
+    "href": "03-project.html#data",
+    "title": "Project",
+    "section": "Data",
+    "text": "Data\nIn order for you to have the greatest chance of success with this project it is important that you choose a manageable dataset. This means that the data should be readily accessible and large enough that multiple relationships can be explored. As such, your dataset should have at least 50 observations (rows) and between 10 to 20 variables (columns) (exceptions can be made but you must speak with me first). The dataset’s variables should include both categorical and numerical variables. If you are using a dataset that comes in a format that we haven’t encountered in class, make sure that you are able to load it into R as this can be tricky depending on the source. Please don’t reuse datasets we have already analyzed in class.\nBelow is a list of data repositories that might be of interest to browse. These are not all exclusively environmental data repositories, although some of them are. You’re not limited to these resources - you are welcome to identify your own datasets as well.\n\nTidyTuesday\nBikeshare data portal\nKaggle datasets\nAwesome public datasets\nHarvard Dataverse\nChesapeake Bay Program Data Hub\nUSGS National Water Information System\nUS EPA Toxic Release Inventory\nNSF Long Term Ecological Research Data Portal\nUS EPA Environmental Dataset Gateway\nNOAA National Centers for Environmental Information",
+    "crumbs": [
+      "Project"
+    ]
+  },
+  {
+    "objectID": "03-project.html#collaborative-coding",
+    "href": "03-project.html#collaborative-coding",
+    "title": "Project",
+    "section": "Collaborative coding",
+    "text": "Collaborative coding\nThese are group projects for a reason - they will force you to learn how to code collaboratively. Code conflicts are inevitable and indeed very annoying. But learning how to fix them is an important skill. Embrace the messiness and try not to get too frustrated - I am here to help. Googling error messages is usually helpful as well.\nIt should go without saying, but everyone needs to make significant code contributions to each project. Because we are using Git and GitHub, I can see each person’s commits, including what you did and when you did it. So it is very obvious if one person is doing most of the work, for example, or another person waited till the last minute to make a few sloppy contributions.\nI know it’s tempting, but please do not write your code contribution in one .qmd file and paste it into your group .qmd file at the end of the project. It is importnant that everyone is working collaboratively on the same document. Each person needs to make commits regularly throughout the course of the project to demonstrate your consistent, continued contritutions.",
+    "crumbs": [
+      "Project"
+    ]
+  },
+  {
+    "objectID": "03-project.html#deliverables",
+    "href": "03-project.html#deliverables",
+    "title": "Project",
+    "section": "Deliverables",
+    "text": "Deliverables\n\nProposal\nIntroduction (2 paragraphs)\nThe introduction should introduce your general research question and your data. In the first paragraph, provide background information to introduce the topic. You should do some research and cite relevant sources to provide context that is grounded in the literature. For example, if I wanted to know whether there was evidence of increasing hurricane intensity in the storms dataset we have previously worked with, I would briefly review the scientific literature on why and how we know hurricanes are becoming more intense. The topic should be something you’ve already researched in some way so that you have enough expertise to spend most of your time analyzing your data rather than reading about your topic.\nIn the second paragraph, state your research question and provide a brief overview of your dataset (where it came from, how it was collected, etc.).\nPlease cite references parenthetically using author-date format (author’s last name, year of publication) using any citation style you’d like. APA is generally straightforward.\nData (1-2 paragraphs)\nProvide a more detailed description of your dataset, including names of files (if you have more than one), number of observations, and names of files. Then use the skim() function to provide a detailed summary of each dataset. Be sure to place your data in the `/data` folder of your project GitHub repository.\nData analysis plan (2-4 paragraphs)\nThis section should include a brief description of - The outcome (response, Y) and predictor (explanatory, X) variables you will use to answer your question, if applicable - The comparison groups you will use, if applicable - Very preliminary exploratory data analysis, including summary statistics and visualizations, along with some explanation on how they help you learn more about your data - The method(s) that you believe will be useful in answering your question(s). - What results from these specific methods are needed to support your hypothesized answer?\nReferences cited Include a list of any references you cited. You can use any citation format you’d like as long as the citations are clean and consistent. If you’re not sure, APA is a straightforward default.\nREADME file\nThe README file is like the home page of a GitHub repository. This is an important component of reproducible data analysis - someone should be able to access your GitHub repo, quickly learn what you did and why you did it in the README, and then access your analysis. Your project template includes a README.md template file. You should add your project title and author names to the README template, then populate the “Executive summary” and “Data dictionary” sections.\n\n\nReport\nThe report will more or less follow the same format as the proposal, with some additional content to contextualize your topic and present your results.\nIntroduction (at least 3-4 paragraphs)\nThe content should be the same as your proposal introduction, but with an additional 1-2 paragraphs to expand on your background information. Please aim to cite 3-5 information sources.\nData (1-2 paragraphs)\nSame guidelines as the proposal.\nMethods (2-4 paragraphs)\nThis section should include a description of the methods you used and why these methods were the right approach for answering your research question(s). Include any packages you used and provide a citation for each package. Start with a general overview of your approach, and then fill in the details. You don’t necessarily need to describe every single function you used and line of code you wrote. Focus instead on the big picture: why and how you wrangled the data, created new variables, calculated data summaries, made comparisons, identified relationships and patterns, etc.\nResults and discussion (at least 3-4 paragraphs but more is ok)\nThis section should present and discuss the results of your data analysis with an emphasis on how each of your results helps you answer your research question(s). Whereas a typical scientific paper generally includes separate results and discussion sections, here we will combine them to make the report more interesting and readable. It needs to include narrative text as well as code output (i.e., figures, tables, etc.).\nYou should organize this section around each of your key findings. Be sure to explain what each visualization is illustrating and how the ways in which the data are presented help to address your question. Discuss why we might be seeing particular patterns, relationships, trends, differences, etc. This is where your domain knowledge comes in again - you need to have a good sense of the underlying phenomena that are represented by your data in order to develop well-founded explanations. You may find that it will be helpful to cite additional information sources to help contextualize your results, but it really depends on the dataset, so these additional citations are optional. Please also include a discussion of the limitations of your analysis, what you would do if you had more time, etc.\nReferences cited\nSame guidelines as the proposal.\nREADME summary\nMake sure to update your README.md file so that it reflects the content of your final report.\n\n\nRepo organization\nThe following folders and files should be in your project repository:\n\nproposal.Rmd + proposal.md: Your proposal documents\nreport.Rmd + report.md: Your report documents\nREADME.md: your README file containing a project summary and metadata\n/data: folder containing your dataset(s) in CSV or RDS format\n\nYour repo should not contain any other files. You may find it useful to create some “scratch” files to do exploratory analysis or code testing outside of your project file. But these files should be removed from your final repository, and again be sure you are making regular contributions and commits to your group’s project file. Our goal is to create a clean, fully reproducible repository that could be made public. That means that only your final, well-documented work should be included.",
+    "crumbs": [
+      "Project"
+    ]
+  },
+  {
+    "objectID": "03-project.html#project-evaluation",
+    "href": "03-project.html#project-evaluation",
+    "title": "Project",
+    "section": "Project evaluation",
+    "text": "Project evaluation\n\nQuestion and data: The research question should be well-designed and the data should be relevant to the research question.\nMethods: Appropriate analytical methods should be used to address the research question.\nCreativity and critical thought: The project should be carefully designed and implemented, and limitations/shortcomings should be thoughtfully discussed.\nProfessional polish: The figures and writing should follow best practices (be free of errors, well-organized, polished, etc.).\nSyntax: The report should take advantage of R Markdown syntax to format for clarity (e.g., plain text, code chunks, bulleted lists, headings, embedded hyperlinks, inline code, etc.)\nTime management: The team should equitably distribute time spent on the project.\nCollaboration: The team should work as a cohesive unit to collaboratively complete the project. This involves good communication and defining clear expectations for each other. Each team member makes regular, substantive commits throughout the course of the project\nReproducibility: .qmd file renders, indicating that the entire analysis can be run by an independent user in a new R Studio session; README file contains a project summary and metadata description.",
+    "crumbs": [
+      "Project"
+    ]
+  },
+  {
+    "objectID": "03-project.html#tips",
+    "href": "03-project.html#tips",
+    "title": "Project",
+    "section": "Tips",
+    "text": "Tips\n\nYou’re working in the same repo as your teammates now, so merge conflicts will happen and that’s fine. Pull every time you start a new R session. Commit and push often. And ask questions when stuck.\nEach team member should be contributing, both in terms of quality and quantity. Talk to me if you have any issues with this.\nSet aside time to work together and apart (physically).\nMake sure to render your final report, commit it, and then push to GitHub!",
+    "crumbs": [
+      "Project"
+    ]
+  }
+]

@@ -1,0 +1,39 @@
+---
+title: "Schedule"
+execute:
+  freeze: false
+---
+
+Schedule will be updated regularly throughout the semester
+
+```{r}
+#| echo: false
+#| message: false
+#| warning: false
+#| html-table-processing: none
+
+library(readxl)
+library(gt)
+
+read_excel("schedule.xlsx") |>
+  gt() |>
+  fmt_markdown(
+    columns = c(PREP, SLIDES, ACTIVITIES, DUE)
+    ) |>
+  cols_width(
+    WEEK ~ px(30),
+    DATE ~ px(90),
+    PREP ~ px(130),
+    SLIDES ~ px(230),
+    ACTIVITIES ~ px(150),
+    DUE ~ px(150)
+  ) |>
+  cols_align(
+    align = "center", columns = c(WEEK, DATE)
+  ) |>
+  tab_options(table.font.size = 13) |>
+  opt_row_striping() |>
+  sub_missing(columns = everything(),
+              missing_text = "") 
+  
+```
