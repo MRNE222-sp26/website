@@ -18,12 +18,12 @@ library(gt)
 read_excel("schedule.xlsx") |>
   gt() |>
   fmt_markdown(
-    columns = c(PREP, SLIDES, ACTIVITIES, DUE)
+    columns = c(RESOURCES, SLIDES, ACTIVITIES, DUE)
     ) |>
   cols_width(
     WEEK ~ px(30),
     DATE ~ px(90),
-    PREP ~ px(130),
+    RESOURCES ~ px(130),
     SLIDES ~ px(230),
     ACTIVITIES ~ px(150),
     DUE ~ px(150)

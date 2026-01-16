@@ -51,7 +51,7 @@ These are group projects for a reason - they will force you to learn how to code
 
 It should go without saying, but everyone needs to make significant code contributions to each project. Because we are using Git and GitHub, I can see each person's commits, including what you did and when you did it. So it is very obvious if one person is doing most of the work, for example, or another person waited till the last minute to make a few sloppy contributions.
 
-I know it's tempting, but please do not write your code contribution in one .qmd file and paste it into your group .qmd file at the end of the project. It is importnant that everyone is working collaboratively on the same document. Each person needs to make commits regularly throughout the course of the project to demonstrate your consistent, continued contritutions. 
+I know it's tempting, but please do not write your code contribution in one .qmd file and paste it into your group .qmd file at the end of the project. It is importnant that everyone is working collaboratively on the same document. Each person needs to make commits regularly throughout the course of the project to demonstrate your consistent, continued contritutions.
 
 ## Deliverables
 
@@ -112,18 +112,19 @@ Your repo should not contain any other files. You may find it useful to create s
 
 ## Project evaluation
 
--   Question and data: The research question should be well-designed and the data should be relevant to the research question.
--   Methods: Appropriate analytical methods should be used to address the research question.
--   Creativity and critical thought: The project should be carefully designed and implemented, and limitations/shortcomings should be thoughtfully discussed.
--   Professional polish: The figures and writing should follow best practices (be free of errors, well-organized, polished, etc.).
--   Syntax: The report should take advantage of [R Markdown syntax](https://www.rstudio.com/wp-content/uploads/2015/03/rmarkdown-reference.pdf) to format for clarity (e.g., plain text, code chunks, bulleted lists, headings, embedded hyperlinks, inline code, etc.)
--   Time management: The team should equitably distribute time spent on the project.
--   Collaboration: The team should work as a cohesive unit to collaboratively complete the project. This involves good communication and defining clear expectations for each other. Each team member makes regular, substantive commits throughout the course of the project
--   Reproducibility: .qmd file renders, indicating that the entire analysis can be run by an independent user in a new R Studio session; README file contains a project summary and metadata description.
+-   Question and data: The research question is well-designed and the data are relevant to the research question.
+-   Methods: Appropriate analytical methods are used to address the research question.
+-   Creativity and critical thought: The project is carefully designed and implemented, and limitations/shortcomings is thoughtfully discussed.
+-   Professional polish: The figures and writing follows best practices (be free of errors, well-organized, polished, etc.).
+-   Syntax and style: The report uses [R Markdown syntax](https://www.rstudio.com/wp-content/uploads/2015/03/rmarkdown-reference.pdf) formatting to improve clarity and polish (e.g., plain text, code chunks, bulleted lists, headings, embedded hyperlinks, inline code, etc.). Code follows [R Style Guide](http://adv-r.had.co.nz/Style.html).
+-   Time management: The team equitably distributes time spent on the project. 
+-   Collaboration: The team works as a cohesive unit to collaboratively complete the project. This involves good communication and defining clear expectations for each other. Each team member makes regular, substantive commits throughout the project timeline.
+-   Reproducibility: .qmd file renders, indicating that the entire analysis can be run by an independent user in a new R Studio session; final rendered file is pushed to GitHub. README file contains a project summary and metadata description.
+- File organization: Repo only includes report, proposal, and data files used in the analysis. Does not include extra data or code files not used in the final analysis.
 
 ## Tips
 
--   You're working in the same repo as your teammates now, so merge conflicts will happen and that's fine. **Pull every time you start a new R session.** Commit and push often. And ask questions when stuck.
+-   You're working in the same repo as your teammates now, so merge conflicts will happen and that's fine. Try to avoid conflicts by **pulling every time you start a new R session.** Commit and push your work often. And ask questions when stuck.
 -   Each team member should be contributing, both in terms of quality and quantity. Talk to me if you have any issues with this.
 -   Set aside time to work together and apart (physically).
--   Make sure to render your final report, commit it, and then push to GitHub!
+-   Make sure to render your final report, commit it, and then push it to GitHub!
