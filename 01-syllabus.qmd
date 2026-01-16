@@ -4,10 +4,10 @@ title: "Syllabus"
 
 **Course:** ENST/MRNE 222 Environmental Data Analysis and Visualization Spring 2026\
 **Class time and location:** Tuesdays and Thursdays 9:55-11:10 Goodpaster 198\
-**Lab time and location:** Mondays Anne Arundel North 111\
+**Lab time and location:** Mondays 1:10-4:20 Anne Arundel North 111\
 **Instructor:** Dr. Cassie Gurbisz (you're welcome to call me Cassie)\
 **Email:** cbgurbisz\@smcm.edu\
-**Office hours:** Wednesdays Kent Hall 308\
+**Office hours:** Wednesdays 9:00-11:00 Kent Hall 308\
 **Website:** https://mrne222-sp26.github.io/website/
 
 ## Course description
