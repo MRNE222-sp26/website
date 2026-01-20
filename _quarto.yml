@@ -6,8 +6,8 @@ website:
   title: "MRNE/ENST 222"
   page-navigation: true
   favicon: "images/favicon/favicon.ico"
-  site-url: "https://mrne222-sp25.github.io/website/"
-  repo-url: "https://github.com/MRNE222-sp25-activities/"
+  site-url: "https://mrne222-sp26.github.io/website/"
+  repo-url: "https://github.com/MRNE222-sp26-activities/"
   sidebar:
     style: "docked"
     search: true
@@ -16,10 +16,10 @@ website:
     pinned: true
     tools:
       - icon: github
-        href: "https://github.com/MRNE222-sp25-activities/"
+        href: "https://github.com/MRNE222-sp26-activities/"
         text: "GitHub organization"
       - icon: code-square
-        href: "https://posit.cloud/spaces/598435/join?access_code=dt0_o-ZKghnJDu2gvF5S3GTKc5GLRSf8QWGAfELr"
+        href: "https://posit.cloud/spaces/742577/join?access_code=aniqlj6EfZVcx9myIb3blIdMJmYA8bS7KL5i4kq0"
         text: "Posit Cloud"
       
     contents:
