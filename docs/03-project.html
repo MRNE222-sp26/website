@@ -286,17 +286,518 @@ Make sure to update your README.md file so that it reflects the content of your 
 </section>
 <section id="project-evaluation" class="level2">
 <h2 class="anchored" data-anchor-id="project-evaluation">Project evaluation</h2>
-<ul>
-<li>Question and data: The research question is well-designed and the data are relevant to the research question.</li>
-<li>Methods: Appropriate analytical methods are used to address the research question.</li>
-<li>Creativity and critical thought: The project is carefully designed and implemented, and limitations/shortcomings is thoughtfully discussed.</li>
-<li>Professional polish: The figures and writing follows best practices (be free of errors, well-organized, polished, etc.).</li>
-<li>Syntax and style: The report uses <a href="https://www.rstudio.com/wp-content/uploads/2015/03/rmarkdown-reference.pdf">R Markdown syntax</a> formatting to improve clarity and polish (e.g., plain text, code chunks, bulleted lists, headings, embedded hyperlinks, inline code, etc.). Code follows <a href="http://adv-r.had.co.nz/Style.html">R Style Guide</a>.</li>
-<li>Time management: The team equitably distributes time spent on the project.</li>
-<li>Collaboration: The team works as a cohesive unit to collaboratively complete the project. This involves good communication and defining clear expectations for each other. Each team member makes regular, substantive commits throughout the project timeline.</li>
-<li>Reproducibility: .qmd file renders, indicating that the entire analysis can be run by an independent user in a new R Studio session; final rendered file is pushed to GitHub. README file contains a project summary and metadata description.</li>
-<li>File organization: Repo only includes report, proposal, and data files used in the analysis. Does not include extra data or code files not used in the final analysis.</li>
-</ul>
+<p>Your project needs to meet all of the following specifications in order to earn a “passing” grade:</p>
+<div class="cell">
+<div class="cell-output-display">
+<div id="qpepuhaoyf" style="padding-left:0px;padding-right:0px;padding-top:10px;padding-bottom:10px;overflow-x:auto;overflow-y:auto;width:auto;height:auto;">
+<style>#qpepuhaoyf table {
+  font-family: system-ui, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+#qpepuhaoyf thead, #qpepuhaoyf tbody, #qpepuhaoyf tfoot, #qpepuhaoyf tr, #qpepuhaoyf td, #qpepuhaoyf th {
+  border-style: none;
+}
+
+#qpepuhaoyf p {
+  margin: 0;
+  padding: 0;
+}
+
+#qpepuhaoyf .gt_table {
+  display: table;
+  border-collapse: collapse;
+  line-height: normal;
+  margin-left: auto;
+  margin-right: auto;
+  color: #333333;
+  font-size: 16px;
+  font-weight: normal;
+  font-style: normal;
+  background-color: #FFFFFF;
+  width: auto;
+  border-top-style: solid;
+  border-top-width: 2px;
+  border-top-color: #A8A8A8;
+  border-right-style: none;
+  border-right-width: 2px;
+  border-right-color: #D3D3D3;
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #A8A8A8;
+  border-left-style: none;
+  border-left-width: 2px;
+  border-left-color: #D3D3D3;
+}
+
+#qpepuhaoyf .gt_caption {
+  padding-top: 4px;
+  padding-bottom: 4px;
+}
+
+#qpepuhaoyf .gt_title {
+  color: #333333;
+  font-size: 125%;
+  font-weight: initial;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  padding-left: 5px;
+  padding-right: 5px;
+  border-bottom-color: #FFFFFF;
+  border-bottom-width: 0;
+}
+
+#qpepuhaoyf .gt_subtitle {
+  color: #333333;
+  font-size: 85%;
+  font-weight: initial;
+  padding-top: 3px;
+  padding-bottom: 5px;
+  padding-left: 5px;
+  padding-right: 5px;
+  border-top-color: #FFFFFF;
+  border-top-width: 0;
+}
+
+#qpepuhaoyf .gt_heading {
+  background-color: #FFFFFF;
+  text-align: center;
+  border-bottom-color: #FFFFFF;
+  border-left-style: none;
+  border-left-width: 1px;
+  border-left-color: #D3D3D3;
+  border-right-style: none;
+  border-right-width: 1px;
+  border-right-color: #D3D3D3;
+}
+
+#qpepuhaoyf .gt_bottom_border {
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+}
+
+#qpepuhaoyf .gt_col_headings {
+  border-top-style: solid;
+  border-top-width: 2px;
+  border-top-color: #D3D3D3;
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+  border-left-style: none;
+  border-left-width: 1px;
+  border-left-color: #D3D3D3;
+  border-right-style: none;
+  border-right-width: 1px;
+  border-right-color: #D3D3D3;
+}
+
+#qpepuhaoyf .gt_col_heading {
+  color: #333333;
+  background-color: #FFFFFF;
+  font-size: 100%;
+  font-weight: normal;
+  text-transform: inherit;
+  border-left-style: none;
+  border-left-width: 1px;
+  border-left-color: #D3D3D3;
+  border-right-style: none;
+  border-right-width: 1px;
+  border-right-color: #D3D3D3;
+  vertical-align: bottom;
+  padding-top: 5px;
+  padding-bottom: 6px;
+  padding-left: 5px;
+  padding-right: 5px;
+  overflow-x: hidden;
+}
+
+#qpepuhaoyf .gt_column_spanner_outer {
+  color: #333333;
+  background-color: #FFFFFF;
+  font-size: 100%;
+  font-weight: normal;
+  text-transform: inherit;
+  padding-top: 0;
+  padding-bottom: 0;
+  padding-left: 4px;
+  padding-right: 4px;
+}
+
+#qpepuhaoyf .gt_column_spanner_outer:first-child {
+  padding-left: 0;
+}
+
+#qpepuhaoyf .gt_column_spanner_outer:last-child {
+  padding-right: 0;
+}
+
+#qpepuhaoyf .gt_column_spanner {
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+  vertical-align: bottom;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  overflow-x: hidden;
+  display: inline-block;
+  width: 100%;
+}
+
+#qpepuhaoyf .gt_spanner_row {
+  border-bottom-style: hidden;
+}
+
+#qpepuhaoyf .gt_group_heading {
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 5px;
+  padding-right: 5px;
+  color: #333333;
+  background-color: #FFFFFF;
+  font-size: 100%;
+  font-weight: initial;
+  text-transform: inherit;
+  border-top-style: solid;
+  border-top-width: 2px;
+  border-top-color: #D3D3D3;
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+  border-left-style: none;
+  border-left-width: 1px;
+  border-left-color: #D3D3D3;
+  border-right-style: none;
+  border-right-width: 1px;
+  border-right-color: #D3D3D3;
+  vertical-align: middle;
+  text-align: left;
+}
+
+#qpepuhaoyf .gt_empty_group_heading {
+  padding: 0.5px;
+  color: #333333;
+  background-color: #FFFFFF;
+  font-size: 100%;
+  font-weight: initial;
+  border-top-style: solid;
+  border-top-width: 2px;
+  border-top-color: #D3D3D3;
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+  vertical-align: middle;
+}
+
+#qpepuhaoyf .gt_from_md > :first-child {
+  margin-top: 0;
+}
+
+#qpepuhaoyf .gt_from_md > :last-child {
+  margin-bottom: 0;
+}
+
+#qpepuhaoyf .gt_row {
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 5px;
+  padding-right: 5px;
+  margin: 10px;
+  border-top-style: solid;
+  border-top-width: 1px;
+  border-top-color: #D3D3D3;
+  border-left-style: none;
+  border-left-width: 1px;
+  border-left-color: #D3D3D3;
+  border-right-style: none;
+  border-right-width: 1px;
+  border-right-color: #D3D3D3;
+  vertical-align: middle;
+  overflow-x: hidden;
+}
+
+#qpepuhaoyf .gt_stub {
+  color: #333333;
+  background-color: #FFFFFF;
+  font-size: 100%;
+  font-weight: initial;
+  text-transform: inherit;
+  border-right-style: solid;
+  border-right-width: 2px;
+  border-right-color: #D3D3D3;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+#qpepuhaoyf .gt_stub_row_group {
+  color: #333333;
+  background-color: #FFFFFF;
+  font-size: 100%;
+  font-weight: initial;
+  text-transform: inherit;
+  border-right-style: solid;
+  border-right-width: 2px;
+  border-right-color: #D3D3D3;
+  padding-left: 5px;
+  padding-right: 5px;
+  vertical-align: top;
+}
+
+#qpepuhaoyf .gt_row_group_first td {
+  border-top-width: 2px;
+}
+
+#qpepuhaoyf .gt_row_group_first th {
+  border-top-width: 2px;
+}
+
+#qpepuhaoyf .gt_summary_row {
+  color: #333333;
+  background-color: #FFFFFF;
+  text-transform: inherit;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+#qpepuhaoyf .gt_first_summary_row {
+  border-top-style: solid;
+  border-top-color: #D3D3D3;
+}
+
+#qpepuhaoyf .gt_first_summary_row.thick {
+  border-top-width: 2px;
+}
+
+#qpepuhaoyf .gt_last_summary_row {
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 5px;
+  padding-right: 5px;
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+}
+
+#qpepuhaoyf .gt_grand_summary_row {
+  color: #333333;
+  background-color: #FFFFFF;
+  text-transform: inherit;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+#qpepuhaoyf .gt_first_grand_summary_row {
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 5px;
+  padding-right: 5px;
+  border-top-style: double;
+  border-top-width: 6px;
+  border-top-color: #D3D3D3;
+}
+
+#qpepuhaoyf .gt_last_grand_summary_row_top {
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 5px;
+  padding-right: 5px;
+  border-bottom-style: double;
+  border-bottom-width: 6px;
+  border-bottom-color: #D3D3D3;
+}
+
+#qpepuhaoyf .gt_striped {
+  background-color: rgba(128, 128, 128, 0.05);
+}
+
+#qpepuhaoyf .gt_table_body {
+  border-top-style: solid;
+  border-top-width: 2px;
+  border-top-color: #D3D3D3;
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+}
+
+#qpepuhaoyf .gt_footnotes {
+  color: #333333;
+  background-color: #FFFFFF;
+  border-bottom-style: none;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+  border-left-style: none;
+  border-left-width: 2px;
+  border-left-color: #D3D3D3;
+  border-right-style: none;
+  border-right-width: 2px;
+  border-right-color: #D3D3D3;
+}
+
+#qpepuhaoyf .gt_footnote {
+  margin: 0px;
+  font-size: 90%;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+#qpepuhaoyf .gt_sourcenotes {
+  color: #333333;
+  background-color: #FFFFFF;
+  border-bottom-style: none;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+  border-left-style: none;
+  border-left-width: 2px;
+  border-left-color: #D3D3D3;
+  border-right-style: none;
+  border-right-width: 2px;
+  border-right-color: #D3D3D3;
+}
+
+#qpepuhaoyf .gt_sourcenote {
+  font-size: 90%;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+#qpepuhaoyf .gt_left {
+  text-align: left;
+}
+
+#qpepuhaoyf .gt_center {
+  text-align: center;
+}
+
+#qpepuhaoyf .gt_right {
+  text-align: right;
+  font-variant-numeric: tabular-nums;
+}
+
+#qpepuhaoyf .gt_font_normal {
+  font-weight: normal;
+}
+
+#qpepuhaoyf .gt_font_bold {
+  font-weight: bold;
+}
+
+#qpepuhaoyf .gt_font_italic {
+  font-style: italic;
+}
+
+#qpepuhaoyf .gt_super {
+  font-size: 65%;
+}
+
+#qpepuhaoyf .gt_footnote_marks {
+  font-size: 75%;
+  vertical-align: 0.4em;
+  position: initial;
+}
+
+#qpepuhaoyf .gt_asterisk {
+  font-size: 100%;
+  vertical-align: 0;
+}
+
+#qpepuhaoyf .gt_indent_1 {
+  text-indent: 5px;
+}
+
+#qpepuhaoyf .gt_indent_2 {
+  text-indent: 10px;
+}
+
+#qpepuhaoyf .gt_indent_3 {
+  text-indent: 15px;
+}
+
+#qpepuhaoyf .gt_indent_4 {
+  text-indent: 20px;
+}
+
+#qpepuhaoyf .gt_indent_5 {
+  text-indent: 25px;
+}
+</style>
+
+<table class="gt_table caption-top table table-sm table-striped small" data-quarto-postprocess="true" data-quarto-disable-processing="false" data-quarto-bootstrap="false">
+<colgroup>
+<col style="width: 50%">
+<col style="width: 50%">
+</colgroup>
+<thead>
+<tr class="gt_col_headings header">
+<th id="Project component" class="gt_col_heading gt_columns_bottom_border gt_left" data-quarto-table-cell-role="th" style="font-weight: bold" scope="col">Project component</th>
+<th id="Specification" class="gt_col_heading gt_columns_bottom_border gt_left" data-quarto-table-cell-role="th" style="font-weight: bold" scope="col">Specification</th>
+</tr>
+</thead>
+<tbody class="gt_table_body">
+<tr class="odd">
+<td class="gt_row gt_left" headers="Project component">Readme</td>
+<td class="gt_row gt_left" headers="Specification">Repo includes fully populated README.md file</td>
+</tr>
+<tr class="even">
+<td class="gt_row gt_left" headers="Project component">Report introduction section</td>
+<td class="gt_row gt_left" headers="Specification">Includes relevant background information needed to understand the topic and question; cites at least 3-5 high-quality (ideally peer-reviewed) information sources. Introduces the research question. The research question is specific and answerable</td>
+</tr>
+<tr class="odd">
+<td class="gt_row gt_left" headers="Project component">Report data section</td>
+<td class="gt_row gt_left" headers="Specification">The data are relevant to the research question. Data section of the report includes a detailed description of the dataset.</td>
+</tr>
+<tr class="even">
+<td class="gt_row gt_left" headers="Project component">Report methods section</td>
+<td class="gt_row gt_left" headers="Specification">Analytical approach directly addresses the research question. Includes description of data wrangling pipelines, data summary calculations, and statistical tests.</td>
+</tr>
+<tr class="odd">
+<td class="gt_row gt_left" headers="Project component">Report results and discussion sections</td>
+<td class="gt_row gt_left" headers="Specification">Report includes at least 2 figures *per team member*, a range of summary statistics, and at least 1 inferential statistical test</td>
+</tr>
+<tr class="even">
+<td class="gt_row gt_left" headers="Project component"><br>
+</td>
+<td class="gt_row gt_left" headers="Specification">Figures and tables include numbered captions which are referred to in the text.</td>
+</tr>
+<tr class="odd">
+<td class="gt_row gt_left" headers="Project component"><br>
+</td>
+<td class="gt_row gt_left" headers="Specification">Results are explained and interpreted; includes explicit discussion of how results address the research question. Interprets results in the context of the topic: explains what ecological/environmental processes might be driving observed relationships, patterns, trends, etc. Discusses limitations of the analysis.</td>
+</tr>
+<tr class="even">
+<td class="gt_row gt_left" headers="Project component">Report references cited</td>
+<td class="gt_row gt_left" headers="Specification">Includes a references cited section</td>
+</tr>
+<tr class="odd">
+<td class="gt_row gt_left" headers="Project component">Repo file organization</td>
+<td class="gt_row gt_left" headers="Specification">Repo only includes report, proposal, and data files used in the analysis. Does not include extra data or code files not used in the final analysis.</td>
+</tr>
+<tr class="even">
+<td class="gt_row gt_left" headers="Project component">Professional polish</td>
+<td class="gt_row gt_left" headers="Specification">The figures and writing follows best practices (be free of errors, well-organized, polished, etc.). The report uses&nbsp;Markdown syntax&nbsp;formatting to improve clarity and polish (e.g., plain text, code chunks, bulleted lists, headings, embedded hyperlinks, inline code, etc.). Code follows&nbsp;R Style Guide.</td>
+</tr>
+<tr class="odd">
+<td class="gt_row gt_left" headers="Project component">Reproducibility</td>
+<td class="gt_row gt_left" headers="Specification">.qmd files render, indicating that the entire analysis can be run by an independent user in a new R Studio session; final rendered files are pushed to GitHub. README file contains a project summary and metadata description.</td>
+</tr>
+<tr class="even">
+<td class="gt_row gt_left" headers="Project component">Time management and collaboration</td>
+<td class="gt_row gt_left" headers="Specification">The team equitably distributes time spent on the project. The team works as a cohesive unit to collaboratively complete the project. This involves good communication and defining clear expectations for each other. Each team member makes regular, substantive commits throughout the project timeline.</td>
+</tr>
+</tbody>
+</table>
+
+</div>
+</div>
+</div>
 </section>
 <section id="tips" class="level2">
 <h2 class="anchored" data-anchor-id="tips">Tips</h2>

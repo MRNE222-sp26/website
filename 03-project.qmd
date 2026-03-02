@@ -117,15 +117,19 @@ Your repo should not contain any other files. You may find it useful to create s
 
 ## Project evaluation
 
--   Question and data: The research question is well-designed and the data are relevant to the research question.
--   Methods: Appropriate analytical methods are used to address the research question.
--   Creativity and critical thought: The project is carefully designed and implemented, and limitations/shortcomings is thoughtfully discussed.
--   Professional polish: The figures and writing follows best practices (be free of errors, well-organized, polished, etc.).
--   Syntax and style: The report uses [R Markdown syntax](https://www.rstudio.com/wp-content/uploads/2015/03/rmarkdown-reference.pdf) formatting to improve clarity and polish (e.g., plain text, code chunks, bulleted lists, headings, embedded hyperlinks, inline code, etc.). Code follows [R Style Guide](http://adv-r.had.co.nz/Style.html).
--   Time management: The team equitably distributes time spent on the project.
--   Collaboration: The team works as a cohesive unit to collaboratively complete the project. This involves good communication and defining clear expectations for each other. Each team member makes regular, substantive commits throughout the project timeline.
--   Reproducibility: .qmd file renders, indicating that the entire analysis can be run by an independent user in a new R Studio session; final rendered file is pushed to GitHub. README file contains a project summary and metadata description.
--   File organization: Repo only includes report, proposal, and data files used in the analysis. Does not include extra data or code files not used in the final analysis.
+Your project needs to meet all of the following specifications in order to earn a "passing" grade:
+```{r echo=FALSE}
+library(readxl)
+library(gt)
+
+read_excel("project_specs.xlsx") |>
+  gt()  |>
+  tab_style(style = cell_text(weight = "bold"),
+    locations = cells_column_labels(everything())) |>
+  sub_missing(columns = everything(),
+              missing_text = "") 
+```
+
 
 ## Tips
 
