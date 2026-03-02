@@ -14,7 +14,7 @@ The [CO~2~ case study](https://mrne222-sp25.github.io/slides/project-example/pro
 
 The goal of the project is to apply the techniques we are covering in class to a novel dataset in a meaningful way. The project should emphasize data wrangling, tidying, visualization, and statistical modeling. Bonus "points" if you use spatial data as well. We will cover statistics and spatial data after Spring Break.
 
-For the project, you will analyze any environmental/ecological dataset you'd like, with the one requirement that it be related to a topic with which you are already familiar so that you have some domain expertise. Data analysis is usually most powerful if you have expertise in a relevant topic area and can, therefore, ask questions and draw conclusions that are well-grounded in that disciplinary domain. So this is a good opportunity to apply previous coursework or experiences in a new, more quantitative context.
+For the project, you will analyze any environmental/marine dataset you'd like, with the one requirement that it be related to a topic with which you are already familiar so that you have some domain expertise. Data analysis is usually most powerful if you have expertise in a relevant topic area and can, therefore, ask questions and draw conclusions that are well-grounded in that disciplinary domain. So this is a good opportunity to apply previous coursework or experiences in a new, more quantitative context.
 
 You don't necessarily need to do an exhaustive data analysis (i.e., do not calculate every statistic or visualize every variable), but rather demonstrate that you are proficient at:
 
@@ -31,19 +31,24 @@ If at any point you are having trouble, don't hesitate to ask for help before it
 
 In order for you to have the greatest chance of success with this project it is important that you choose a manageable dataset. This means that the data should be readily accessible and large enough that multiple relationships can be explored. As such, your dataset should have **at least 50 observations** (rows) and between **10 to 20 variables** (columns) (exceptions can be made but you must speak with me first). The dataset's variables should include **both categorical and numerical variables**. If you are using a dataset that comes in a format that we haven't encountered in class, make sure that you are able to load it into R as this can be tricky depending on the source. Please don't reuse datasets we have already analyzed in class.
 
-Below is a list of data repositories that might be of interest to browse. These are not all exclusively environmental data repositories, although some of them are. You're not limited to these resources - you are welcome to identify your own datasets as well.
+Below is a list of data repositories that might be of interest to browse. You're not limited to these resources - you are welcome to identify your own datasets as well.
 
--   [TidyTuesday](https://github.com/rfordatascience/tidytuesday)
--   [Bikeshare data portal](https://www.bikeshare.com/data/)
--   [Kaggle datasets](https://www.kaggle.com/datasets)
--   [Awesome public datasets](https://github.com/awesomedata/awesome-public-datasets)
--   [Harvard Dataverse](https://dataverse.harvard.edu/)
+-   [Environmental Data Initiative Data Portal](https://portal.edirepository.org/nis/home.jsp)
+-   [National Ecological Observatory Network Data Portal](https://www.neonscience.org/data)
 -   [Chesapeake Bay Program Data Hub](https://datahub.chesapeakebay.net/)
 -   [USGS National Water Information System](https://waterdata.usgs.gov/nwis)
+-   [CoastalWiki list of marine databases](https://www.coastalwiki.org/wiki/Marine_data_portals_and_tools)
 -   [US EPA Toxic Release Inventory](https://www.epa.gov/toxics-release-inventory-tri-program/tri-data-and-tools)
 -   [NSF Long Term Ecological Research Data Portal](https://lternet.edu/using-lter-data/)
 -   [US EPA Environmental Dataset Gateway](https://edg.epa.gov/metadata/catalog/main/home.page)
+-   [NOAA One Stop data portal](https://data.noaa.gov/onestop/)
 -   [NOAA National Centers for Environmental Information](https://www.ncei.noaa.gov/)
+-   [Australian Institute of Marine Science data](https://www.aims.gov.au/data#:~:text=AIMS%20network%20of%20weather%20stations,climate%20events%20in%20Northern%20Australia.)
+-   [German Marine Data Portal](https://marine-data.de/)
+-   [French Marine Data Portal](https://www.ifremer.fr/en/research-infrastructures/marine-data-portal)
+-   [Northeast Ocean Data](https://www.northeastoceandata.org/)
+-   [re3data.org](https://www.re3data.org/)
+
 
 ## Collaborative coding
 
@@ -117,10 +122,10 @@ Your repo should not contain any other files. You may find it useful to create s
 -   Creativity and critical thought: The project is carefully designed and implemented, and limitations/shortcomings is thoughtfully discussed.
 -   Professional polish: The figures and writing follows best practices (be free of errors, well-organized, polished, etc.).
 -   Syntax and style: The report uses [R Markdown syntax](https://www.rstudio.com/wp-content/uploads/2015/03/rmarkdown-reference.pdf) formatting to improve clarity and polish (e.g., plain text, code chunks, bulleted lists, headings, embedded hyperlinks, inline code, etc.). Code follows [R Style Guide](http://adv-r.had.co.nz/Style.html).
--   Time management: The team equitably distributes time spent on the project. 
+-   Time management: The team equitably distributes time spent on the project.
 -   Collaboration: The team works as a cohesive unit to collaboratively complete the project. This involves good communication and defining clear expectations for each other. Each team member makes regular, substantive commits throughout the project timeline.
 -   Reproducibility: .qmd file renders, indicating that the entire analysis can be run by an independent user in a new R Studio session; final rendered file is pushed to GitHub. README file contains a project summary and metadata description.
-- File organization: Repo only includes report, proposal, and data files used in the analysis. Does not include extra data or code files not used in the final analysis.
+-   File organization: Repo only includes report, proposal, and data files used in the analysis. Does not include extra data or code files not used in the final analysis.
 
 ## Tips
 
